@@ -6,7 +6,17 @@
     tools:context=".BottomFragment">
 
     <TextView
-        android:id="@+id/textexcuted"
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Activity" />
+    <TextView
+        android:id="@+id/textbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="placeholder" />
+    <TextView
+        android:id="@+id/textbox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="placeholder" />

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.ListFragment;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,6 +21,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,9 +33,5 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().add(R.id.container, listView).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.container, bottomFragment).commit();
 
-        Toast toast = Toast.makeText(getApplicationContext(),
-                "Main Activity",
-                Toast.LENGTH_LONG);
-        toast.show();
     }
 }

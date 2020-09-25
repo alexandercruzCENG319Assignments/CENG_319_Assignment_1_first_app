@@ -6,7 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".VRActivity">
     <TextView
-        android:id="@+id/changetext"
+        android:id="@+id/changetextt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" placeholder" />
+
+    <TextView
+        android:id="@+id/changetextt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" placeholder" />
+    <TextView
+        android:id="@+id/changetextt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" placeholder" />
