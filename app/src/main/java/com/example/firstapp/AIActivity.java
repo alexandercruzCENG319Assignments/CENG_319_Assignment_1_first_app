@@ -25,7 +25,7 @@ public class AIActivity extends AppCompatActivity {
         tvv.setText(" ");
 
         //main activity label
-        textv.setText("Main Activity: \n");
+        textv.setText("AI Activity: \n");
         textv.setTextSize(30);
         textv.setTextColor(Color.MAGENTA);
         textv.setBackgroundColor(Color.GRAY);
